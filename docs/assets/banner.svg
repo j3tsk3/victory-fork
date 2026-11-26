@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Neptune VI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07070c"/>
+      <stop offset="1" stop-color="#121022"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff5fa2"/>
+      <stop offset="1" stop-color="#ff9a3c"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2de2e6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#2de2e6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2de2e6" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="half"><rect x="0" y="0" width="1200" height="236"/></clipPath>
+  </defs>
+  <rect width="1200" height="360" fill="url(#bg)"/>
+  <g clip-path="url(#half)">
+    <circle cx="930" cy="236" r="118" fill="url(#sun)" opacity="0.9"/>
+    <rect x="800" y="196" width="260" height="6" fill="#0b0a15"/>
+    <rect x="800" y="212" width="260" height="8" fill="#0b0a15"/>
+    <rect x="800" y="226" width="260" height="10" fill="#0b0a15"/>
+  </g>
+  <rect x="600" y="236" width="600" height="2" fill="url(#sea)"/>
+  <rect x="680" y="252" width="440" height="1.5" fill="url(#sea)" opacity="0.6"/>
+  <rect x="760" y="266" width="280" height="1" fill="url(#sea)" opacity="0.4"/>
+  <text x="80" y="168" fill="#f4f4f8" font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="6">NEPTUNE<tspan fill="#ff5fa2" font-weight="300" dx="22">VI</tspan></text>
+  <text x="84" y="216" fill="#9a98ad" font-family="Segoe UI, Inter, Helvetica Neue, Arial, sans-serif" font-size="24" letter-spacing="2">Ryzen + NVIDIA port of Neptune (VIctory Edit.)</text>
+  <text x="84" y="290" fill="#5f5d73" font-family="Consolas, Menlo, monospace" font-size="17" letter-spacing="1">by Traffic &amp; imgone  ·  port by zm0kie</text>
+</svg>
